@@ -11,6 +11,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <style>
+    .box{
+      background: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
   </style>
 
   <title>Materialize Sandbox</title>
@@ -126,27 +131,168 @@
     <br>
 
     <!-- START HERE -->
-
+    
     <!-- 12 1 COLUMNS -->
-
+    <div class="row">
+      <div class="col s1">
+        <div class="box">1</div>
+      </div>
+      <div class="col s1">
+        <div class="box">2</div>
+      </div>
+      <div class="col s1">
+        <div class="box">3</div>
+      </div>
+      <div class="col s1">
+        <div class="box">4</div>
+      </div>
+      <div class="col s1">
+        <div class="box">5</div>
+      </div>
+      <div class="col s1">
+        <div class="box">6</div>
+      </div>
+      <div class="col s1">
+        <div class="box">7</div>
+      </div>
+      <div class="col s1">
+        <div class="box">8</div>
+      </div>
+      <div class="col s1">
+        <div class="box">9</div>
+      </div>
+      <div class="col s1">
+        <div class="box">10</div>
+      </div>
+      <div class="col s1">
+        <div class="box">11</div>
+      </div>
+      <div class="col s1">
+        <div class="box">12</div>
+      </div>
+    </div>
 
     <!-- 3 4 COLUMNS -->
-
+    <div class="row">
+      <div class="col s4">
+        <div class="box">1</div>
+      </div>
+      <div class="col s4">
+        <div class="box">2</div>
+      </div>
+      <div class="col s4">
+        <div class="box">3</div>
+      </div>
+    </div>
 
     <!-- 2 6 COLUMNS -->
-
+    <div class="row">
+      <div class="col s6">
+        <div class="box">1</div>
+      </div>
+      <div class="col s6">
+        <div class="box">2</div>
+      </div>
+    </div>
 
     <!-- 8 & 4 COLUMNS -->
-
+    <div class="row">
+      <div class="col s8">
+        <div class="box">1</div>
+      </div>
+      <div class="col s4">
+        <div class="box">2</div>
+      </div>
+    </div>
 
     <!-- RESPONSIVE GRIDS / SPECIFIC SCREEN SIZES -->
+    <!-- 12 1 COLUMNS -->
+    <!-- medium sizes and up will be 12 column row -->
+    <!-- if the screen size is small it will take the entire screen s12, it will be stacked -->
+    <div class="row">
+      <div class="col m1 s12">
+        <div class="box">1</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">2</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">3</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">4</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">5</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">6</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">7</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">8</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">9</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">10</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">11</div>
+      </div>
+      <div class="col m1 s12">
+        <div class="box">12</div>
+      </div>
+    </div>
 
+    <!-- Medium and up takes 3 columns, small screen takes whole screen size -->
+    <div class="row">
+      <div class="col m4 s12">
+        <div class="box">1</div>
+      </div>
+      <div class="col m4 s12">
+        <div class="box">2</div>
+      </div>
+      <div class="col m4 s12">
+        <div class="box">3</div>
+      </div>
+    </div>
+
+    <!-- If is extra large the first div takes 9 while the other takes 3 -->
+    <!-- If is large the first takes 8 and the other 4
+    If is medium both divs takes 6
+    If is small size each divs takes the whole screen -->
+    <div class="row">
+      <div class="col xl9 l8 m6 s12">
+        <div class="box">1</div>
+      </div>
+      <div class="col xl3 l4 m6 s12">
+        <div class="box">2</div>
+      </div>
+    </div>
 
     <!-- PUSH & PULL -->
+    <!-- will reverse the position -->
+    <div class="row">
+      <div class="col s7 push-s5">
+        <div class="box">1</div>
+      </div>
 
+      <div class="col s5 pull-s7">
+        <div class="box">2</div>
+      </div>
+    </div>
 
     <!-- OFFSETS -->
-
+    <!-- We have a 6 column div but we pushed it over by 3 columns (offset by 3 colums) -->
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <div class="box">LOGIN</div>
+      </div>
+    </div>
 
     <!-- END HERE -->
 
